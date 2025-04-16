@@ -4,7 +4,7 @@ from LLMManager import NLLBManager
 
 # 환경 변수에서 설정값 로드
 HF_TOKEN = os.getenv("HF_TOKEN")
-MODEL_ID = os.getenv("MODEL_ID", "Youseff1987/nllb-200-finetuning-20250305")
+MODEL_ID = os.getenv("MODEL_ID", "ninky0/rezoom-llama3.1-8b-4bit-b16")
 CPU_ONLY = os.getenv("CPU_ONLY", "False").lower() == "true"
 print("HF_TOKEN:", HF_TOKEN)
 print("MODEL_ID:", MODEL_ID)
